@@ -1,8 +1,8 @@
 import { Box, useTheme } from "@mui/material";
 import { DataGrid } from "@mui/x-data-grid";
-import { useGetAminsQuery } from "state/api";
-import Header from "components/Header";
-import CustomColumnMenu from "components/DataGridCustomColumnMenu";
+import { useGetAminsQuery } from "@state/api";
+import Header from "@components/Header";
+import CustomColumnMenu from "@components/DataGridCustomColumnMenu";
 
 const Admin = () => {
   const theme = useTheme();

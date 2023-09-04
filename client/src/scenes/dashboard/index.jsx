@@ -1,5 +1,5 @@
-import FlexBetween from "components/FlexBetween";
-import Header from "components/Header";
+import FlexBetween from "@components/FlexBetween";
+import Header from "@components/Header";
 
 import {
   DownloadOutlined,
@@ -18,10 +18,10 @@ import {
 } from "@mui/material";
 
 import { DataGrid } from "@mui/x-data-grid";
-import BreakdownChart from "components/BreakdownChart";
-import OverviewChart from "components/OverviewChart";
-import StatBox from "components/StatBox";
-import { useGetDashboardQuery } from "state/api";
+import BreakdownChart from "@components/BreakdownChart";
+import OverviewChart from "@components/OverviewChart";
+import StatBox from "@components/StatBox";
+import { useGetDashboardQuery } from "@state/api";
 
 const Dashboard = () => {
   const theme = useTheme();

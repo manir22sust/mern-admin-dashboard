@@ -1,8 +1,8 @@
 import { Box, useTheme } from "@mui/material";
-import { useGetCustomersQuery } from "state/api";
+import { useGetCustomersQuery } from "@state/api";
 import { DataGrid } from "@mui/x-data-grid";
 
-import Header from "components/Header";
+import Header from "@components/Header";
 
 function Customers() {
   const theme = useTheme();

@@ -32,7 +32,7 @@ import {
   PieChartOutlined,
 } from "@mui/icons-material";
 import FlexBetween from "./FlexBetween";
-import profileImage from "assets/profile.jpg";
+import profileImage from "@assets/profile.jpg";
 
 const navItems = [
   {

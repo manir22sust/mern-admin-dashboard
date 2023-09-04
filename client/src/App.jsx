@@ -1,27 +1,27 @@
 import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
 import { CssBaseline, ThemeProvider } from "@mui/material";
 import { createTheme } from "@mui/material/styles";
-import { themeSettings } from "theme";
+import { themeSettings } from "./theme";
 import { useSelector } from "react-redux";
 import { useMemo } from "react";
 
-import Layout from "scenes/layout";
-import Dashboard from "scenes/dashboard";
+import Layout from "@scenes/layout";
+import Dashboard from "@scenes/dashboard";
 // client
-import Products from "scenes/products";
-import Customers from "scenes/customers";
-import Transactions from "scenes/transactions";
-import Geography from "scenes/geography";
+import Products from "@scenes/products";
+import Customers from "@scenes/customers";
+import Transactions from "@scenes/transactions";
+import Geography from "@scenes/geography";
 
 // sales
-import Overview from "scenes/overview";
-import Daily from "scenes/daily";
-import Monthly from "scenes/monthly";
-import Breakdown from "scenes/breakdown";
+import Overview from "@scenes/overview";
+import Daily from "@scenes/daily";
+import Monthly from "@scenes/monthly";
+import Breakdown from "@scenes/breakdown";
 
 // management
-import Admin from "scenes/admin";
-import Performance from "scenes/performance";
+import Admin from "@scenes/admin";
+import Performance from "@scenes/performance";
 
 import "./App.css";
 

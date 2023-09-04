@@ -1,5 +1,5 @@
 import { Box, Typography, useTheme } from "@mui/material";
-import { useGetSalesQuery } from "state/api";
+import { useGetSalesQuery } from "@state/api";
 import { ResponsivePie } from "@nivo/pie";
 
 const BreakdownChart = ({ isDashboard = false }) => {
